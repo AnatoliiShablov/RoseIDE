@@ -24,6 +24,10 @@ ApplicationWindow {
 
             TextArea {
                 textDocument.objectName: "document"
+                background: Rectangle {
+                    anchors.fill: parent
+                    color: "lightgrey"
+                }
             }
         }
         Rectangle {
